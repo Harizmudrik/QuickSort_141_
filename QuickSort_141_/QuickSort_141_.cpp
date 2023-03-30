@@ -45,6 +45,8 @@ void q_short(int low, int high)
     if (low > high)
         return;
 
+    pivot = arr[low];
+
     i = low + 1;
     j = high;
 
@@ -82,37 +84,9 @@ void q_short(int low, int high)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
