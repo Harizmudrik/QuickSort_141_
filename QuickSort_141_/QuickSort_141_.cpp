@@ -86,7 +86,11 @@ void q_short(int low, int high)
 
 int main()
 {
-    
+    input();
+    q_short(0, n - 1);
+    display();
+    system("pause");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
